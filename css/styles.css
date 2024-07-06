@@ -146,8 +146,6 @@ img {
 .section-top {
   background-color: #2e2f42;
   padding: 188px 0;
-  padding-top: 191px;
-  padding-bottom: 185px;
 }
 
 .section-second {
@@ -279,6 +277,8 @@ css/styles.css.name-third {
 }
 .main-iteam-img {
   width: calc((100% - 48px) / 3);
+}
+.main-iteam-img {
   border-top: none;
 }
 .name-third-img {
