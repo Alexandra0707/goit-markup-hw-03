@@ -283,7 +283,7 @@ css/styles.css.name-third {
   border-top: none;
 }
 .name-third-img {
-  padding-top: 120px;
+  padding-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -294,8 +294,6 @@ css/styles.css.name-third {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
 }
 
 .tex-third-img {
