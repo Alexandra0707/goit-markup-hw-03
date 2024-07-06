@@ -7,6 +7,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -17,8 +19,28 @@ button {
   cursor: pointer;
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .name-second {
   text-transform: capitalize;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -29,6 +51,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo-part {
@@ -47,8 +70,25 @@ button {
   color: #2e2f42;
 }
 
+.header-nav {
+  display: flex;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-container {
+  display: flex;
+}
 .contacts {
   font-style: normal;
+  margin-left: auto;
+}
+
+.contacts-list {
+  display: flex;
 }
 
 .contact-link {
@@ -67,10 +107,27 @@ button {
 
 .section-top {
   background-color: #2e2f42;
+  padding-top: 191px;
+  padding-bottom: 185px;
+}
+
+.section-second {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .part-third {
   background-color: #f4f4fd;
+}
+
+.part-third {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-fourth {
+  padding-left: 120px;
+  padding-bottom: 120px;
 }
 .maim-top {
   font-weight: 500;
@@ -80,8 +137,17 @@ button {
   text-align: center;
   color: #fff;
 }
+
+.maim-top {
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
 .main-btn {
   background: #4d5ae5;
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
 }
 
 .main-btn:hover,
@@ -94,6 +160,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: block;
 }
 
 .main-btn:hover,
@@ -107,6 +174,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .tex-third {
   font-size: 16px;
@@ -115,18 +184,38 @@ button {
   color: #434455;
 }
 
+.main-list {
+  display: flex;
+  gap: 24px;
+}
+
 .main-iteam {
   background-color: #ffffff;
 }
-
-.name-third {
+.main-itaem {
+  width: calc((100% - 3 * 24px) / 4);
+}
+css/styles.css.name-third {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+.bottom {
+  background: #fff;
+  border: 1px solid #e7e9fc;
+}
+.main-list-img {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
 }
 
+.main-iteam-img {
+  width: calc((100% - 3 * 24) / 4);
+}
 .name-third-man {
   font-weight: 500;
   font-size: 20px;
@@ -134,23 +223,47 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
+.tex-third-img {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+.name-third-img {
+  margin-top: 32px;
+  margin-left: 16px;
+}
 .tex-third-man {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
+.footer-logo {
+  margin-bottom: 16px;
+}
 .footer-tex {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-tex {
+  display: flex;
+  max-width: 264px;
+  margin-top: 16px;
 }
